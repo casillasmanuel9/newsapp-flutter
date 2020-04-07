@@ -67,7 +67,7 @@ class _TarjetaTopBar extends StatelessWidget {
       margin: EdgeInsets.only(bottom: 10),
       child: Row(
         children: <Widget>[
-          Text('${index + 1}', style: TextStyle(color: miTema.accentColor),),
+          Text('${index + 1} ', style: TextStyle(color: miTema.accentColor),),
           Text('${noticia.source.name}', )
         ],
       ),
